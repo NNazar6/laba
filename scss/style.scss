@@ -1,0 +1,90 @@
+body{
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    
+
+}
+
+.container{
+    margin: 45px 190px;
+}
+
+.header{
+    &__logo{
+        margin-right: 480px;
+    }
+    &__head{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__ul{
+        display: flex;
+        list-style: none;
+        
+    }
+    &__list-h{
+        margin-right: 35px;
+        text-decoration: none;
+        color: #202336;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__list{
+        margin-right: 35px;
+        text-decoration: none;
+        color: #B8BECD;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__btn-block{
+        margin: 0 0 0 34px;
+
+    }
+    &__btn{
+        text-decoration: none;
+        color: #FB8F1D;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 1px solid #FB8F1D;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        padding: 8px 46px;
+    }
+    &__btng{
+        text-decoration: none;
+        color: #fff;
+        background-color: #FB8F1D;
+        border-radius: 8px;
+        border: 1px solid #FB8F1D;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        padding: 8px 46px;
+        margin-left: 18px;
+    }
+    &__btn-block{
+        display: flex;
+    }
+
+}
+
+// 
+
+.body{
+    &__title{
+        color: #202336;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+    }
+}
